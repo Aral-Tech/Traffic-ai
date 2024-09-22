@@ -48,6 +48,10 @@ determines the optimal signal timing for each intersection to minimize overall v
 
 ![Training Loop](docs/mldiagram.png)
 
+## Demo Video
+
+![Demo Gif](docs/TrafficAIdemo.gif)
+
 ## Training Process
 
 The model is trained on a series of "events" - predefined traffic scenarios that represent various traffic conditions.
