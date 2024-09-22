@@ -224,6 +224,9 @@ TrafficAI - Intelligent Traffic Control System
 
 ### Website link: [TrafficAi](https://traffic-ai.netlify.app)
 
+### Front diagram
+![Front Diagram](docs/frontdiagram.png)
+
 ### Team Members
 
 - [Diyarbek Oralbaev](https://linkedin.com/in/diyarbek-oralbaev) - *Backend Developer && DevOps Engineer && ML Engineer*
