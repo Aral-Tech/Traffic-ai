@@ -46,7 +46,7 @@ determines the optimal signal timing for each intersection to minimize overall v
 3. A minimum green light duration is enforced to ensure traffic flow stability.
 4. The system aims to minimize the total waiting time, calculated as: (number of cars) × (waiting time in seconds)
 
-![Training Loop](back-ai/docs/train_loop.png)
+![Training Loop](docs/mldiagram.png)
 
 ## Training Process
 
