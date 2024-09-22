@@ -23,7 +23,7 @@ intersections, enhancing traffic flow and reducing vehicle wait times in urban a
 TrafficAI creates a virtual urban environment with multiple intersections controlled by traffic signals. The system
 determines the optimal signal timing for each intersection to minimize overall vehicle wait times.
 
-![Sample City Grid](docs/samplecity1.png)
+![Sample City Grid](back-ai/docs/samplecity1.png)
 
 ## Key Features
 
@@ -46,7 +46,7 @@ determines the optimal signal timing for each intersection to minimize overall v
 3. A minimum green light duration is enforced to ensure traffic flow stability.
 4. The system aims to minimize the total waiting time, calculated as: (number of cars) × (waiting time in seconds)
 
-![Training Loop](docs/train_loop.png)
+![Training Loop](back-ai/docs/train_loop.png)
 
 ## Training Process
 
@@ -70,7 +70,7 @@ different city layouts:
 
 ### Epoch vs Time for Map 1
 
-![Epoch vs Time for Map1](plots/time_vs_epoch_city1.png)
+![Epoch vs Time for Map1](back-ai/plots/time_vs_epoch_city1.png)
 
 [//]: # (### Epoch vs Time for Map 2)
 
@@ -163,7 +163,7 @@ TrafficAI includes several sample maps used for training and testing:
 
 ### Map 1
 
-![Map 1](maps_images/city1.png)
+![Map 1](back-ai/maps_images/city1.png)
 
 [//]: # (### Map 2)
 
