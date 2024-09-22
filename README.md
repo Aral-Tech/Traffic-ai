@@ -76,6 +76,11 @@ different city layouts:
 
 ![Epoch vs Time for Map1](back-ai/plots/time_vs_epoch_city1.png)
 
+## What this means:
+Learning Effectiveness: The agent learned to manage traffic effectively within the first 6-7 epochs, drastically reducing total time. Afterward, the improvements taper off, indicating diminishing returns.
+
+Convergence: The model seems to have converged to a relatively stable solution after around 10 epochs. Continuing training beyond that point does not seem to improve performance much, meaning the system is close to its optimal performance based on the current setup.
+
 [//]: # (### Epoch vs Time for Map 2)
 
 [//]: # (![Epoch vs Time for Map2]&#40;plots/time_vs_epoch_city3.png&#41;)
