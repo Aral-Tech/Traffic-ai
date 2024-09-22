@@ -24,6 +24,28 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .main {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .details.section {
+      flex: 1;
+    }
+
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+    }
+
     .heading {
       font-weight: bold;
       text-align: center;
@@ -37,6 +59,18 @@
       margin-left: auto;
       margin-right: auto;
     }
+
+    .video-gif-container {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .video-gif-container video {
+      max-width: 80%;
+      border: 3px solid #333;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
   </style>
 </head>
 
@@ -45,7 +79,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">  
+      <a href="index.html" class="logo d-flex align-items-center">
         <h1 class="sitename">TrafficAI</h1>
       </a>
 
@@ -113,16 +147,18 @@
       </div><!-- End Section Title -->
 
       <div class="container">
-        <h1 class="heading">Optimizing Traffic Flow at Intersections</h1>
-        <div class="row gy-4 align-items-center features-item align-items-center">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+        <h1 class="heading">Simple Intersection</h1>
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex flex-column align-items-center" data-aos="zoom-out" data-aos-delay="100">
             <img src="assets/img/instruct/image_2024-09-22_06-59-56.png" class="img-fluid" alt="">
+            <p style="text-align: center; margin-top: 10px;">Simple Intersection</p>
           </div>
-          <div class="col-md-2 d-flex align-items-center" style="text-align: center;" data-aos="zoom-out" data-aos-delay="100">
+          <div class="col-md-2 d-flex justify-content-center align-items-center" data-aos="zoom-out" data-aos-delay="100">
             <i class="bi bi-arrow-right" style="font-size: 80px;"></i>
           </div>
-          <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-5 d-flex flex-column align-items-center" data-aos="fade-up" data-aos-delay="100">
             <img src="assets/img/instruct/image_2024-09-22_07-00-13.png" class="img-fluid" alt="">
+            <p style="text-align: center; margin-top: 10px;">Network of Intersections</p>
           </div>
         </div>
       </div>
@@ -131,18 +167,32 @@
       <br>
 
       <div class="container">
-        <h1 class="heading">Advanced Traffic Simulation and Analysis</h1>
-        <div class="row gy-4 align-items-center features-item align-items-center">
-          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+        <h1 class="heading">Convert Real time map into Simulation environment</h1>
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex flex-column align-items-center" data-aos="zoom-out" data-aos-delay="100">
             <img src="assets/img/instruct/image_2024-09-22_07-00-33.png" class="img-fluid" alt="">
+            <p style="text-align: center; margin-top: 10px;">Real-Time Map</p>
           </div>
-          <div class="col-md-2 d-flex align-items-center" style="text-align: center;" data-aos="zoom-out" data-aos-delay="100">
+          <div class="col-md-2 d-flex justify-content-center align-items-center" data-aos="zoom-out" data-aos-delay="100">
             <i class="bi bi-arrow-right" style="font-size: 80px;"></i>
           </div>
-          <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-5 d-flex flex-column align-items-center" data-aos="fade-up" data-aos-delay="100">
             <img src="assets/img/instruct/image_2024-09-22_07-00-43.png" class="img-fluid" alt="">
+            <p style="text-align: center; margin-top: 10px;">Simulation Environment</p>
           </div>
         </div>
+        <div class="container text-center mt-4">
+          <p>Our model learns from it!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video GIF Section -->
+    <section id="video-gif" class="video-gif-container">
+      <div class="container">
+        <h1 class="heading">Watch How It Works</h1>
+        <video src="assets/TrafficAI Demo (1).mp4" alt="Video showing how TrafficAI works" controls>
+        </video>
       </div>
     </section>
 
@@ -229,8 +279,7 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="" method="post" class="php-email-form" data-aos="fade-up"
-              data-aos-delay="200">
+            <form action="" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
                 <div class="col-md-6">
                   <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
@@ -301,8 +350,7 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
