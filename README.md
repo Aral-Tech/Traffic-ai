@@ -222,6 +222,8 @@ been instrumental in the development of TrafficAI.
 
 TrafficAI - Intelligent Traffic Control System
 
+### Website link: [TrafficAi](https://traffic-ai.netlify.app)
+
 ### Team Members
 
 - [Diyarbek Oralbaev](https://linkedin.com/in/diyarbek-oralbaev) - *Backend Developer && DevOps Engineer && ML Engineer*
